@@ -1,0 +1,54 @@
+
+.signin-btn{
+    background-color: #a4e7d5;
+}
+.signup-btn{
+    background-color: #d7c1a1;
+}
+header {
+    /*background-image: linear-gradient(45deg,#D798FF,#F6B4AC);*/
+    /*background: url('1.jpg');*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMXNICzFze56nTn4PJrh3pl8YSloEsaOcYF-Yw35J60cWPLVhQlZCITclXKMAeVQRRE8&usqp=CAU");
+
+    text-align: center;
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+    border-radius: 0 0 56% 56% / 59%;
+}.overlay h1{
+    margin: 0;
+   padding: 43px;
+   margin: 0;
+    padding: 43px;
+    padding-bottom: 78px;
+}
+header .overlay{
+    
+    width: 100%;
+       height: 100%;
+
+    /*height: 336PX;
+    padding: 50px 0;*/
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3, p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+header ,footer{
+    box-shadow:  0 0 20px black;
+}

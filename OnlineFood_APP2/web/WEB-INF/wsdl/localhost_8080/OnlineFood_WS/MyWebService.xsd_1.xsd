@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://servicepack/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://servicepack/">
+
+<xs:element name="addFood" type="tns:addFood"/>
+
+<xs:element name="addFoodResponse" type="tns:addFoodResponse"/>
+
+<xs:element name="addUser" type="tns:addUser"/>
+
+<xs:element name="addUserResponse" type="tns:addUserResponse"/>
+
+<xs:element name="deleteFood" type="tns:deleteFood"/>
+
+<xs:element name="deleteFoodResponse" type="tns:deleteFoodResponse"/>
+
+<xs:element name="getAllOrderReformed" type="tns:getAllOrderReformed"/>
+
+<xs:element name="getAllOrderReformedResponse" type="tns:getAllOrderReformedResponse"/>
+
+<xs:element name="getAllOrders" type="tns:getAllOrders"/>
+
+<xs:element name="getAllOrdersResponse" type="tns:getAllOrdersResponse"/>
+
+<xs:element name="getFoodsHome" type="tns:getFoodsHome"/>
+
+<xs:element name="getFoodsHomeResponse" type="tns:getFoodsHomeResponse"/>
+
+<xs:element name="getOrder" type="tns:getOrder"/>
+
+<xs:element name="getOrderReformed" type="tns:getOrderReformed"/>
+
+<xs:element name="getOrderReformedResponse" type="tns:getOrderReformedResponse"/>
+
+<xs:element name="getOrderResponse" type="tns:getOrderResponse"/>
+
+<xs:element name="getTotalPrice" type="tns:getTotalPrice"/>
+
+<xs:element name="getTotalPriceResponse" type="tns:getTotalPriceResponse"/>
+
+<xs:element name="setAvaluable" type="tns:setAvaluable"/>
+
+<xs:element name="setAvaluableResponse" type="tns:setAvaluableResponse"/>
+
+<xs:element name="setOrder" type="tns:setOrder"/>
+
+<xs:element name="setOrderDetail" type="tns:setOrderDetail"/>
+
+<xs:element name="setOrderDetailResponse" type="tns:setOrderDetailResponse"/>
+
+<xs:element name="setOrderResponse" type="tns:setOrderResponse"/>
+
+<xs:element name="setReceived" type="tns:setReceived"/>
+
+<xs:element name="setReceivedResponse" type="tns:setReceivedResponse"/>
+
+<xs:element name="setSend" type="tns:setSend"/>
+
+<xs:element name="setSendResponse" type="tns:setSendResponse"/>
+
+<xs:element name="signin" type="tns:signin"/>
+
+<xs:element name="signinResponse" type="tns:signinResponse"/>
+
+<xs:complexType name="setAvaluable">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setAvaluableResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAllOrders">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getAllOrdersResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:orderModel" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="orderModel">
+<xs:sequence>
+<xs:element name="address" type="xs:string" minOccurs="0"/>
+<xs:element name="count" type="xs:int"/>
+<xs:element name="customerId" type="xs:int"/>
+<xs:element name="deliverTime" type="xs:dateTime" minOccurs="0"/>
+<xs:element name="foodName" type="xs:string" minOccurs="0"/>
+<xs:element name="foodPrice" type="xs:double"/>
+<xs:element name="fullName" type="xs:string" minOccurs="0"/>
+<xs:element name="orderTime" type="xs:dateTime" minOccurs="0"/>
+<xs:element name="order_id" type="xs:int"/>
+<xs:element name="phone" type="xs:string" minOccurs="0"/>
+<xs:element name="status" type="xs:string" minOccurs="0"/>
+<xs:element name="total_price" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteFood">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteFoodResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setSend">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setSendResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getOrderReformed">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getOrderReformedResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="addUser">
+<xs:sequence>
+<xs:element name="arg0" type="tns:customerModel" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="customerModel">
+<xs:sequence>
+<xs:element name="address" type="xs:string" minOccurs="0"/>
+<xs:element name="cutomer_id" type="xs:int"/>
+<xs:element name="fullName" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+<xs:element name="phone" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setReceived">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setReceivedResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getFoodsHome">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getFoodsHomeResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:foodModel" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="foodModel">
+<xs:sequence>
+<xs:element name="foodName" type="xs:string" minOccurs="0"/>
+<xs:element name="foodPicPath" type="xs:string" minOccurs="0"/>
+<xs:element name="foodPrice" type="xs:double"/>
+<xs:element name="food_id" type="xs:int"/>
+<xs:element name="isAvailable" type="xs:int"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setOrderDetail">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+<xs:element name="arg1" type="xs:int"/>
+<xs:element name="arg2" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setOrderDetailResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="addFood">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:int"/>
+<xs:element name="arg2" type="xs:string" minOccurs="0"/>
+<xs:element name="arg3" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addFoodResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTotalPrice">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+<xs:element name="arg1" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTotalPriceResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrder">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrderResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:orderModel" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="signin">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="signinResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAllOrderReformed">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getAllOrderReformedResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="setOrder">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setOrderResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

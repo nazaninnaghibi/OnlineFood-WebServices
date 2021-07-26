@@ -1,0 +1,49 @@
+
+
+footer {
+    /*background-image: linear-gradient(45deg,#D798FF,#F6B4AC);*/
+    /*background: url('1.jpg');*/
+    background-image: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2020/01/02/2020-trends-to-watch-in-us-beverage/10484034-2-eng-GB/2020-trends-to-watch-in-US-beverage_wrbm_large.jpg");
+
+    text-align: center;
+    width: 100%;
+    /*height: auto;*/
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+  /*  border-radius: 56% 56%  0 0/ 59%;
+  */
+      border-radius: 0% 34% 0% 0% / 50%;
+}
+footer .overlay{
+    width: 100%;
+    /*height: 263PX;*/
+    /*padding: 50px;*/
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3, p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+footer .footer-info >div{
+padding:80px;
+}
+footer  .all-right{
+    margin-bottom: 20px;
+}
+
