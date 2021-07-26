@@ -9,4 +9,19 @@ applied in this project.
 
 ![image](https://user-images.githubusercontent.com/55413701/127046371-d9c52248-fed3-4fc8-bf93-34e872628548.png)
 
+![image](https://user-images.githubusercontent.com/55413701/127046927-41d0085b-bab5-450c-bb09-0a3b3cc86376.png)
+
+Admin Panel:
+![image](https://user-images.githubusercontent.com/55413701/127047076-127b3d50-474a-42a5-9357-d2c25a1ae86f.png)
+
+manage food by admin:
+![image](https://user-images.githubusercontent.com/55413701/127047262-8de3ea57-48ba-4c37-86da-99665a16f0f5.png)
+
+Cutomer Panel:
+![image](https://user-images.githubusercontent.com/55413701/127047574-d56be9ca-96fa-4dcd-9685-3c8f43785a3b.png)
+
+
+![image](https://user-images.githubusercontent.com/55413701/127047458-0408403d-cf9d-42c8-8736-1a59e47a669c.png)
+
+
 
