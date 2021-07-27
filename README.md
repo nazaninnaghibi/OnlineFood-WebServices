@@ -1,4 +1,3 @@
-![CustomerPanel](https://user-images.githubusercontent.com/55413701/127160439-cbb065ec-abe2-4bf3-9520-bd2d3329b015.png)
 # OnlineFood-WebServices
 Enterprise Application Project: Designing sign in and sign-up page and designing product introduction with price calculating for a web design project and using MySQL
 as the database of the project. 
@@ -8,21 +7,38 @@ Users can see the information of a product and calculate the price according to 
 Also, Admin can log in to the website to see a customer’s order, to manage the orders. Also admin can add, modify, and delete a product. Authorization and authentication are 
 applied in this project.
 
-![image](https://user-images.githubusercontent.com/55413701/127046371-d9c52248-fed3-4fc8-bf93-34e872628548.png)
+Main Panel:
+![CustomerPanel](https://user-images.githubusercontent.com/55413701/127163812-49e1d7f0-9601-4dec-9986-7eaf8510dedc.png)
 
-![image](https://user-images.githubusercontent.com/55413701/127046927-41d0085b-bab5-450c-bb09-0a3b3cc86376.png)
+Main Panel:
+![MainPanel](https://user-images.githubusercontent.com/55413701/127163838-77c40918-0f32-45fa-9b29-0b04d179dcae.png)
 
-Admin Panel:
-![image](https://user-images.githubusercontent.com/55413701/127047076-127b3d50-474a-42a5-9357-d2c25a1ae86f.png)
+Sign Up:
+![SignUp](https://user-images.githubusercontent.com/55413701/127163863-68d4b952-914e-421b-8354-caa698da9734.png)
 
-manage food by admin:
-![image](https://user-images.githubusercontent.com/55413701/127047262-8de3ea57-48ba-4c37-86da-99665a16f0f5.png)
+Sign In:
+![Sign In](https://user-images.githubusercontent.com/55413701/127163881-57c9510c-2df8-4444-ba9f-0e82bbbcdc2b.png)
 
-Cutomer Panel:
-![image](https://user-images.githubusercontent.com/55413701/127047574-d56be9ca-96fa-4dcd-9685-3c8f43785a3b.png)
+Customer Panel:
+![CustomerPanel2](https://user-images.githubusercontent.com/55413701/127163919-5065638c-1ce8-4b27-a3fb-9e3160f15102.png)
+
+Customer's order:
+![Customer'sOrder](https://user-images.githubusercontent.com/55413701/127163935-8f1657c1-1f0c-44e9-9611-f43432330a21.png)
+
+Admin panel:
+![AdminPanel](https://user-images.githubusercontent.com/55413701/127163969-cce5bd57-cd68-41b0-a151-704bfc8f0f83.png)
+
+Food Management by Admin:
+![ManageFood](https://user-images.githubusercontent.com/55413701/127163998-dc547b0c-8d39-44ca-bf97-9863f680a415.png)
+
+Orders Report by admin:
+![OrderReports](https://user-images.githubusercontent.com/55413701/127164016-9db7c5ca-e33d-45f9-9563-acc4a74c2e71.png)
 
 
-![image](https://user-images.githubusercontent.com/55413701/127047458-0408403d-cf9d-42c8-8736-1a59e47a669c.png)
+
+
+
+
 
 
 
